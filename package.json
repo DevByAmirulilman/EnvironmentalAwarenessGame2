@@ -1,0 +1,23 @@
+{
+  "name": "finaltaeproject",
+  "version": "1.0.0",
+  "description": "this game was developed using three js for final yar project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevByAmirulilman/FinalYearProject.git"
+  },
+  "author": "Amirul Ilman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevByAmirulilman/FinalYearProject/issues"
+  },
+  "homepage": "https://github.com/DevByAmirulilman/FinalYearProject#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
