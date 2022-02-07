@@ -2,7 +2,7 @@
   "name": "finaltaeproject",
   "version": "1.0.0",
   "description": "this game was developed using three js for final yar project",
-  "main": "main.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d dist"
