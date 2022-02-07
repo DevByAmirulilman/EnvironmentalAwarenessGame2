@@ -523,7 +523,7 @@ class ThirdPersonCamera {
 }
 
 
-class SceneClass {
+class SceneClass { 
   constructor() {
     document.getElementById('ui-container').style.visibility = 'visible';
     document.getElementById('container').style.visibility = 'hidden';
