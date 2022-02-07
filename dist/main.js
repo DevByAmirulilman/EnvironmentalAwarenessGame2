@@ -2,8 +2,8 @@ import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.118/build/three.mod
 
 import {FBXLoader} from 'https://cdn.jsdelivr.net/npm/three@0.118.1/examples/jsm/loaders/FBXLoader.js';
 
-import Environment from './src/Environment.js';
-import Task from './src/Task.js';
+import Environment from '../src/Environment.js.js';
+import Task from '../src/Task.js';
 
 //loaders 
 const cubeTextureLoader = new THREE.CubeTextureLoader()
