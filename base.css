@@ -1,0 +1,79 @@
+body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #000000;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+  overflow: hidden;
+  background-image: url("./resources/ui.png"), url("./resources/ui.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+}
+
+#ui-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.ui {
+  background-color: rgba(0, 255, 42, 0.452);
+  padding: 20px;
+  text-align: center;
+  font-family: "Luxurious Roman", cursive;
+}
+.ui button {
+  width: 20%;
+  font-family: "Luxurious Roman", cursive;
+}
+#container {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.ui-controls {
+  text-align: center;
+  background-color: rgba(0, 255, 42, 0.452);
+  height: 40%;
+  opacity: 70%;
+  border: 5px black solid;
+  margin-top: 10px;
+}
+.ui-controls:hover {
+  cursor: pointer;
+}
+.controls {
+  text-align: center;
+  background-color: rgba(0, 255, 42, 0.452);
+  height: 40%;
+  opacity: 70%;
+}
+a {
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+.controls:hover {
+  cursor: pointer;
+}
+.tittle {
+  width: 30%;
+  text-align: center;
+  opacity: 70%;
+  margin-top: -20px;
+}
+.task {
+  background-color: rgba(0, 255, 42, 0.452);
+  width: 20%;
+  height: 100%;
+}
+.done {
+  background-color: rgba(0, 255, 42, 0.452);
+}
